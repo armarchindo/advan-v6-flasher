@@ -12,4 +12,6 @@ wget https://raw.githubusercontent.com/armarchindo/advan-v6-flasher/main/advanv6
 5. Next (ENTER) sampai selesai dan tunggu modem restart
 
 Detail cara untuk memakai firmware ini bisa dilihat di grup FB IHABT
+```
 fb.com/share/p/1CDswtfsiY/
+```
