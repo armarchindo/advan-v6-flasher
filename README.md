@@ -7,7 +7,7 @@ Cara install urut:
 3. Koneksikan HP Android (wajib) ke wifi Advan V6
 4. Copas dan Enter command ini ke termux
 ```
-wget https://raw.githubusercontent.com/armarchindo/advan-v6-flasher/main/advanv6_flasher -O advanv6_flasher && chmod +x ./advanv6_flasher && ./advanv6_flasher
+pkg update && pkg upgrade -y && pkg install wget && wget https://raw.githubusercontent.com/armarchindo/advan-v6-flasher/main/advanv6_flasher -O advanv6_flasher && chmod +x ./advanv6_flasher && ./advanv6_flasher
 ```
 5. Next (ENTER) sampai selesai dan tunggu modem restart
 
