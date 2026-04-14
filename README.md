@@ -1,5 +1,9 @@
 # advan-v6-flasher
 Flasher firmware MOD untuk modem CPE Advan V6 atau ZLT S50
+PRASYARAT WAJIB AGAR INSTALL SUKSES, BACA DULU INI
+```
+fb.com/share/p/1CDswtfsiY/
+```
 
 Cara install urut:
 1. Download aplikasi bernama Termux di playstore
