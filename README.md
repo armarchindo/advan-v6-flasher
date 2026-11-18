@@ -10,8 +10,8 @@
 ### 📌 Navigasi Cepat (Pilih Tool yang Anda Butuhkan)
 Repositori ini menyediakan **2 TOOL UTAMA** dengan fungsi yang berbeda. Klik tautan di bawah ini untuk langsung menuju panduan masing-masing:
 
-* [🚀 **1. Advan V6 Flasher** (Pasang Firmware IMBA MOD)](#-1-advan-v6-flasher-installer-firmware-mod) — Untuk instalasi fitur-fitur canggih (Bandwidth Limiter, Fix TTL, IMEI, Telegram Bot, dll).
-* [🛠️ **2. Advan V6 AIO Utility** (Rescue & Advanced Toolkit)](#-2-advan-v6-aio-utility-rescue--advanced-toolkit) — Untuk troubleshooting, aktivasi SSH/Telnet/ADB, Superadmin WebUI, dan perbaikan tanpa perlu flash ulang!
+* [🚀 **1. Advan V6 Flasher** (Pasang Firmware IMBA MOD)](#advan-v6-flasher) — Untuk instalasi fitur-fitur canggih (Bandwidth Limiter, Fix TTL, IMEI, Telegram Bot, dll).
+* [🛠️ **2. Advan V6 AIO Utility** (Rescue & Advanced Toolkit)](#advan-v6-utility) — Untuk troubleshooting, aktivasi SSH/Telnet/ADB, Superadmin WebUI, dan perbaikan tanpa perlu flash ulang!
 
 ---
 
@@ -31,6 +31,7 @@ Sebelum menjalankan tool apa pun, pastikan Anda telah memenuhi ketentuan berikut
 
 ---
 
+<a id="advan-v6-flasher"></a>
 ## 🚀 1. Advan V6 Flasher (Installer Firmware MOD)
 
 Tool otomatis untuk memasang **IMBA MOD Firmware** ke modem Advan V6 / ZLT S50 via jalur Over-The-Air (OTA) lokal tanpa perlu bongkar casing atau solder kabel serial.
@@ -70,6 +71,7 @@ chmod +x ./advanv6_flasher && ./advanv6_flasher
 
 ---
 
+<a id="advan-v6-utility"></a>
 ## 🛠️ 2. Advan V6 AIO Utility (Rescue & Advanced Toolkit)
 
 Tool mandiri serbaguna untuk kebutuhan perbaikan (*rescue*), pembukaan akses backdoor sistem, dan manajemen akun tingkat lanjut **tanpa perlu melakukan flash ulang firmware**. Sangat berguna baik untuk modem berkondisi standar pabrik maupun yang sudah terpasang modifikasi.
