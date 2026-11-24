@@ -61,16 +61,16 @@ Berdasarkan pembacaan binary dump bootloader primer (`mtd1_uboot.bin`, offset `0
 Modem Advan V6 dilengkapi port Micro-USB yang terhubung langsung ke SoC Unisoc SL8563.
 
 ### A. Persiapan Driver di PC (Pilih Sesuai Versi Windows Anda)
-Gunakan paket driver resmi Unisoc/Spreadtrum yang telah disediakan pada folder `dumper/driver/SPD_Driver_R4.20.4201/`. Pilih subfolder installer yang sesuai dengan versi sistem operasi Windows di PC Anda:
+Gunakan paket driver resmi Unisoc/Spreadtrum yang telah disediakan pada folder `Driver_Tools_Script/driver/SPD_Driver_R4.20.4201/`. Pilih subfolder installer yang sesuai dengan versi sistem operasi Windows di PC Anda:
 
 1. **Windows 10 & Windows 11:**
-   - **Lokasi Folder:** `driver/SPD_Driver_R4.20.4201/Win10-Win11/`
+   - **Lokasi Folder:** `Driver_Tools_Script/driver/SPD_Driver_R4.20.4201/Win10-Win11/`
    - **File Installer:** Klik kanan **`DPInst64.exe`** (untuk Windows 64-bit) atau **`DPInst32.exe`** (untuk Windows 32-bit) $\rightarrow$ pilih **Run as Administrator**.
 2. **Windows 8 & Windows 8.1:**
-   - **Lokasi Folder:** `driver/SPD_Driver_R4.20.4201/Win8/`
+   - **Lokasi Folder:** `Driver_Tools_Script/driver/SPD_Driver_R4.20.4201/Win8/`
    - **File Installer:** Klik kanan **`DPInst64.exe`** (64-bit) atau **`DPInst32.exe`** (32-bit) $\rightarrow$ pilih **Run as Administrator**.
 3. **Windows 7:**
-   - **Lokasi Folder:** `driver/SPD_Driver_R4.20.4201/Win7/`
+   - **Lokasi Folder:** `Driver_Tools_Script/driver/SPD_Driver_R4.20.4201/Win7/`
    - **File Installer:** Klik kanan **`DPInst64.exe`** (64-bit) atau **`DPInst32.exe`** (32-bit) $\rightarrow$ pilih **Run as Administrator**.
 
 *Driver ini memuat komponen vital:*
