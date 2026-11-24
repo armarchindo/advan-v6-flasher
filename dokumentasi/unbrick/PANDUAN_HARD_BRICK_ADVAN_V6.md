@@ -1,6 +1,6 @@
 # 🛠️ Panduan Pemulihan Hard-Brick Modem Advan V6 (Unisoc Low-Level Dumper & Flasher)
 
-![Advan V6 Unbrick Banner](assets/ADVAN-V6_brick.png)
+![Advan V6 Unbrick Banner](../../assets/ADVAN-V6_brick.png)
 
 Panduan ini merangkum penggunaan software flasher, driver USB, dan CLI utilities khusus untuk menangani proses **Low-Level Flashing, Dumping Partisi Flash, Ekstraksi ROM (.PAC), dan Unbrick Darurat (Hard-Brick / Mati Total / BROM Mode)** pada perangkat dengan chipset **Spreadtrum / Unisoc (khususnya Unisoc SL8563 Quad-Core ARMv7l pada modem Advan CPE V6)**.
 
@@ -14,12 +14,12 @@ Panduan ini merangkum penggunaan software flasher, driver USB, dan CLI utilities
 
 ## 1. Ikhtisar & Struktur Direktori
 
-Struktur folder paket dumper:
-- **Folder Root:** Berisi folder driver, software pendukung, dan folder flasher.
+Struktur folder paket `Driver_Tools_Script`:
+- **Folder Root (`Driver_Tools_Script/`):** Berisi koleksi driver resmi, software flasher, dan script pemulihan.
 - **Folder Flasher CLI (`spd_dump_tool/`):** Seluruh tool CLI eksekusi (`spd_dump.exe`, library, unpacker, helper) dikelompokkan menjadi satu kesatuan di folder ini.
 
 ```text
-dumper/ (unisoc_dumper_tool/)
+Driver_Tools_Script/
 ├── driver/                                      # Koleksi Driver USB Unisoc/Spreadtrum
 │   ├── SPD_Driver_R4.20.4201/                   # Driver Resmi Rekomendasi (Win 7/8/10/11)
 │   │   ├── Win10-Win11/ (DPInst64.exe, DPInst32.exe, sprdvcom.inf, sprdadb.inf)
@@ -28,12 +28,15 @@ dumper/ (unisoc_dumper_tool/)
 │   ├── SPRD_NPI_USB_Driver_v1.4/                # Driver Spreadtrum NPI Factory Mode
 │   ├── Spreadtrum_Jungo_USB2Serial/             # Driver Jungo USB-to-Serial (Legacy)
 │   └── Spreadtrum_SCI_USB2Serial/               # Driver SCI USB-to-Serial (Legacy)
-└── spd_dump_tool/                               # Paket Utuh Flasher & Dumper CLI Unisoc
-    ├── spd_dump.exe                             # Engine CLI Low-Level Flasher & Dumper Unisoc
-    ├── libusb-1.0.dll                           # Library USB Driver User-space untuk spd_dump
-    ├── unpac.exe                                # Extractor / Unpacker Firmware Resmi Unisoc (.PAC)
-    ├── fphelper.exe                             # Flash Partition & Layout Helper Unisoc
-    └── fphelper_t117.exe                        # Helper Khusus Chipset Unisoc T117
+├── spd_dump_tool/                               # Paket Utuh Flasher & Dumper CLI Unisoc
+│   ├── spd_dump.exe                             # Engine CLI Low-Level Flasher & Dumper Unisoc
+│   ├── libusb-1.0.dll                           # Library USB Driver User-space untuk spd_dump
+│   ├── unpac.exe                                # Extractor / Unpacker Firmware Resmi Unisoc (.PAC)
+│   ├── fphelper.exe                             # Flash Partition & Layout Helper Unisoc
+│   └── fphelper_t117.exe                        # Helper Khusus Chipset Unisoc T117
+├── advan_at_recovery.py                         # Tool otomatisasi pemulihan Soft-Brick via AT Command
+├── install_dependencies.bat                     # Installer dependensi Python otomatis untuk Windows
+└── run_recovery.bat                             # Launcher 1-klik untuk menjalankan tool recovery
 ```
 
 ---
