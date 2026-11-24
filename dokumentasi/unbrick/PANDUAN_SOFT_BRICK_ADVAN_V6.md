@@ -1,6 +1,6 @@
 # 🩹 Panduan Lengkap Diagnosa & Pemulihan Soft-Brick Modem Advan V6 (ZLT S50)
 
-![Advan V6 Unbrick Banner](assets/ADVAN-V6_brick.png)
+![Advan V6 Unbrick Banner](../../assets/ADVAN-V6_brick.png)
 
 > **Platform:** Unisoc SL8563 (ARM Cortex-A7, Architecture ARMv7)  
 > **Sistem Operasi:** Embedded Linux (Ubuntu 18.04 LTS / Yocto SL8563)  
