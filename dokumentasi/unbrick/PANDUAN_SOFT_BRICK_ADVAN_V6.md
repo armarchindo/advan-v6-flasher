@@ -2,11 +2,11 @@
 
 ![Advan V6 Unbrick Banner](../../assets/ADVAN-V6_brick.png)
 
-> **Platform:** Unisoc SL8563 (ARM Cortex-A7, Architecture ARMv7)  
-> **Sistem Operasi:** Embedded Linux (Yocto SL8563)
-> **RAM:** LPDDR2 ESMT M54D2G3264A (256MB)  
-> **Storage:** SPI NAND Flash DS35M2GA-IB (1.8V, 256MB)  
-> **Kondisi Perangkat:** Soft-Brick layer WebUI (HTTP 500 / Halaman Blank), fungsi modem/jaringan tetap aktif normal.
+> - **Platform:** Unisoc SL8563 (ARM Cortex-A7, Architecture ARMv7)  
+> - **Sistem Operasi:** Embedded Linux (Yocto SL8563)  
+> - **RAM:** LPDDR2 ESMT M54D2G3264A (256MB)  
+> - **Storage:** SPI NAND Flash DS35M2GA-IB (1.8V, 256MB)  
+> - **Kondisi Perangkat:** Soft-Brick layer WebUI (HTTP 500 / Halaman Blank), fungsi modem/jaringan tetap aktif normal.
 
 > [!TIP]
 > **Link Download Resmi Paket Driver & Script Recovery (.7z):**  
